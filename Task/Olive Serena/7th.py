@@ -7,11 +7,11 @@ for i in range(1,N+1):
   p=R-f
   print("Amount Roy pays = Rs.",p)
   print("Amount Alfie pays = Rs.",f)
-
+.
 
 def fact(N):
   for i in range(2,N+1) :
-    if(N%2==0):
+    if(N%i==0):
       if isprime(i):
         return i
   return N
